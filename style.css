@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.central-button {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px #888888;
+  cursor:  pointer;
+  margin-top: 8px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 22px;
+  text-align: center;
+  color: #191919;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 38px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#pano {
+  height: 100%;
+  width: 100%;
+}

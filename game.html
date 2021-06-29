@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+
+    <title>Street View Game </title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div id="pano"></div>
+    <div type="button" class="central-button" id="reveal"> Reveal! </div>
+    <div type="button" class="central-button" id="reload"> New Game </div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=randomView&libraries=&v=weekly&radius=1000"
+      async
+    ></script>
+  </body>
+</html>
